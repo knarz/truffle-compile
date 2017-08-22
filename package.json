@@ -14,8 +14,7 @@
     "truffle-error": "^0.0.2",
     "truffle-expect": "^0.0.3"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "mocha"
   },
