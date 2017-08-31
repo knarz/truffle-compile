@@ -137,6 +137,7 @@ var compile = function(sources, options, callback) {
 
       var contract_definition = {
         contract_name: contract_name,
+        metadata: contract.metadata,
         sourcePath: source_path,
         source: operatingSystemIndependentSources[source_path],
         sourceMap: contract.evm.bytecode.sourceMap,
